@@ -46,7 +46,7 @@ const Experience = () => {
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-        Experience
+        Kinh nghiệm
       </h2>
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
@@ -58,21 +58,24 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Stellar Innovations"
-            time="2020 - 2024"
-            address="200 Innovations st"
-            companyLink="https://github.com/lilxyzz/clay-theme"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            position="Kinh doanh"
+            company="Công ty cổ phần tập đoàn The Startup"
+            time="2024 - Nay"
+            address="Quản lý nhân sự - kinh doanh - đối ngoại"
+            companyLink="https://www.thestartup.vn"
+            work="THE STARTUP không chỉ là một công ty mà còn là bệ phóng cho những ước mơ lớn, 
+            là ngôi nhà của những tâm hồn táo bạo và khát vọng mãnh liệt. Chúng tôi khao khát tạo 
+            nên một tương lai nơi sáng tạo không có giới hạn, và nơi mỗi người đều có thể trở thành 
+            người kiến tạo sự thay đổi mà họ mong muốn. Với các lĩnh vực kinh doanh: Thẩm mỹ, chăm sóc sức khỏe; Đào tạo nghề; Bán lẻ; Hỗ trợ Tài chính; Bất động sản; Dịch vụ tư vấn luật; Công nghệ Big data, Quảng cáo "
           />
 
           <Details
-            position="Rad Tester"
-            company="Vault Technologies"
-            time="2018 - 2020"
-            address="404 Tech st"
-            companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            position="Công chức"
+            company="Thị trấn Ngọc Lặc - Tỉnh Thanh Hóa"
+            time="2015 - 2024"
+            address="Tài chính kế toán"
+            companyLink="https://www.facebook.com/thitranngoclacthanhhoa"
+            work="Xây dựng dự toán thu, chi ngân sách · Triển khai các biện pháp khai thác nguồn thu trên địa bàn · Thực hiện dự toán chi ngân sách · Báo cáo tài chính, Quyết toán ngân sách · Quản lý tài sản công · Quản lý các dự án đầu tư xây dựng · Quản lý quỹ công chuyên dùng · Kê khai quyết toán thuế, BHXH, chế độ lương, thưởng, phụ cấp."
           />
         </ul>
       </div>
@@ -86,7 +89,7 @@ const Experience = () => {
             md:p-2 md:px-4 md:text-base
              `}
         >
-          View Projects
+          Xem dự án
         </Link>
         <Link
           href="/articles/"
@@ -97,7 +100,7 @@ const Experience = () => {
             md:p-2 md:px-4 md:text-base
              `}
         >
-          View Articles
+          Xem bài viết
         </Link>
       </div>
     </div>
