@@ -166,7 +166,7 @@ export default function Articles() {
           </ul>
 
           <h2 className="font-bold text-4xl w-full text-center mt-32 my-16">
-            All Articles
+            Tất cả Bài viết
           </h2>
 
           <ul className="flex flex-col items-center relative">
@@ -189,7 +189,7 @@ export default function Articles() {
             md:p-2 md:px-4 md:text-base
              `}
             >
-              Hiểu về tôi
+              Xem thêm về tôi
             </Link>
             <Link
               href="/projects/"
