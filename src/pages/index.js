@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NexTemp Built with Nextjs</title>
+        <title>Sơn Tùng XYZ</title>
         <meta
           name="description"
           content="Next Portfolio, A open-source portfolio theme built with Nextjs"
@@ -39,20 +39,18 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hey, I’m Riley"
+                text="Xin chào, Mình Là Sơn Tùng"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I create engaging web experiences.
+                  Cuộc sống là hành trình những trải nghiệm hấp dẫn.
                 </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                I'm a front-end web developer at Stellar Innovations, passionate
-                about creating dynamic and user-friendly web experiences. With a
-                keen eye for design and a robust understanding of front-end and
-                back-end technologies.
+              🌟 Trong cuộc đời này, không ai bước vào thế giới của ta một cách ngẫu nhiên, và không sự kiện nào xảy ra mà không ẩn chứa một ý nghĩa sâu xa. Mỗi con người ta gặp, mỗi câu chuyện ta trải qua – dù ngọt ngào hay đắng cay – đều là những mảnh ghép không thể thiếu, định hình nên con người ta hôm nay. Những cuộc gặp gỡ ấy, những khoảnh khắc ấy, chính là lời nhắc nhở tinh tế từ cuộc sống rằng mọi thứ đều diễn ra đúng thời điểm, đúng người, và vì một lý do nào đó.
+              🌟Ghi lại, trân trọng những điều quý giá ấy không chỉ là lưu giữ kỷ niệm, mà còn là lòng biết ơn với chính hành trình này, đã mang đến cơ hội để ta học, để ta yêu, và để ta sống một cuộc đời trọn vẹn hơn từng ngày.🌟.
               </p>
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
@@ -64,7 +62,7 @@ export default function Home() {
             md:p-2 md:px-4 md:text-base
              `}
                 >
-                  Get To Know Me
+                  Xem thêm về mình
                 </Link>
                 <Link
                   href="/projects/"
@@ -75,7 +73,7 @@ export default function Home() {
             md:p-2 md:px-4 md:text-base
              `}
                 >
-                  projects
+                  Những việc đang làm
                 </Link>
               </div>
             </div>
