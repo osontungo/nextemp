@@ -9,7 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
-import proj1 from "/public/images/projects/Venus_beauty_paradise.png";
+import proj1 from "/public/images/projects/cho-vay-tien.jpeg";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -41,7 +41,7 @@ export default function About() {
       <Head>
         <link
           rel="canonical"
-          href="https://www.venusbeautyparadise.com"
+          href="https://zalo.me/0915467890"
         ></link>
         <title>
         Venus Beauty Paradise  | THIÊN ĐƯỜNG LÀM ĐẸP | Thay diện mạo - đổi cuộc đời
