@@ -157,7 +157,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             md:p-2 md:px-4 md:text-base"
             aria-label="Project link"
           >
-            View Project
+            Xem dự án
           </Link>
         </div>
       </div>
@@ -219,7 +219,7 @@ const Project = ({ title, type, img, link, tools }) => {
             "
             aria-label={title}
           >
-            View Project
+            Xem dự án
           </Link>
         </div>
       </div>
@@ -256,15 +256,15 @@ export default function Projects() {
                 summary="Thay đổ diện mạo, thay đổi cuộc đời với đội ngũ 100% Bác sỹ có chuyên môn cao, kinh nghiệm trên 20 năm, chính chỉ hành nghề theo đúng quy định pháp luật"
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
+                link="/projects/Venus_beauty_paradise"
                 github="https://www.venusbeautyparadise.com"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                type="Hỗ trợ tài chính"
+                tools="Hồ sơ nhanh | Bao nợ xấu | Lãi xuất thấp | Bao nợ xấu"
+                title="Hỗ trợ khoản vay từ 1-100 tỷ"
                 img={proj1}
                 date="2023"
                 link="/projects/clay-gatsby-theme"
