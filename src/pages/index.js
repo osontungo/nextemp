@@ -84,10 +84,10 @@ export default function Home() {
         <div className="fixed right-8 bottom-8 inline-block md:hidden">
           <iframe
             className="iframe"
-            title="Noongar Seasonal Calendar"
+            title="Thời tiết theo mùa"
             width="280"
             height="120"
-            src="https://seasonal-au.netlify.app/"
+            src="https://thoitiet-beige.vercel.app/"
             frameborder="0"
             allowfullscreen
           ></iframe>
