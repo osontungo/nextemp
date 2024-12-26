@@ -8,7 +8,8 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/Venus_beauty_paradise.png";
-import proj2 from "../../public/images/projects/clay-theme.png";
+import proj2 from "../../public/images/projects/cho-vay-tien.jpeg";
+import proj3 from "../../public/images/projects/clay-theme.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -268,8 +269,8 @@ export default function Projects() {
                 title="Hỗ trợ khoản vay từ 1-100 tỷ"
                 img={proj2}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="/projects/cho-vay-tien"
+                github="https://zalo.me/0915467890"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -277,10 +278,10 @@ export default function Projects() {
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
                 title="Clay - Gatsby Theme"
-                img={proj1}
+                img={proj3}
                 date="2023"
                 link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://zalo.me/0915467890"
               />
             </div>
           </div>
@@ -306,7 +307,7 @@ export default function Projects() {
             md:p-2 md:px-4 md:text-base
              `}
               >
-                View Articles
+                Xem bài viết
               </Link>
               <Link
                 href="/about/"
@@ -317,7 +318,7 @@ export default function Projects() {
             md:p-2 md:px-4 md:text-base
              `}
               >
-                Get To Know Me
+                Xem về tôi
               </Link>
             </div>
             <HireMe2 />
