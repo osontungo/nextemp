@@ -9,7 +9,7 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs | 404 Page </title>
+        <title>Sơn Tùng XYZ |Lỗi 404 Không tìm thấy trang </title>
       </Head>
       <TransitionEffect />
       <main className="h-[100vh] w-full dark:bg-dark ">
@@ -23,7 +23,7 @@ const NotFound = () => {
         dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
         "
           >
-            Go To Home
+            Trở về trang chủ
           </Link>
         </Layout>
       </main>
