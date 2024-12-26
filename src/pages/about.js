@@ -51,7 +51,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Let Passion Lead Your Purpose 🔥"
+            text="Đam mê dẫn lối 🔥"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -61,30 +61,23 @@ export default function About() {
             md:col-span-8"
             >
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                BIOGRAPHY
+              TIỂU SỬ
               </h2>
               <p className="font-medium ">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+              Rất vui được gặp bạn! Mình là Sơn Tùng – một người yêu thích sự đơn giản nhưng 
+              luôn đam mê khám phá tri thức. Đọc sách, học hỏi để phát triển bản thân và kinh 
+              doanh là nguồn cảm hứng lớn trong cuộc sống của mình. Mình tin rằng ai cũng có 
+              thể tiến xa hơn nếu sẵn sàng học hỏi, thay đổi và đón nhận những điều mới mẻ. Hy 
+              vọng sẽ được giao lưu, chia sẻ những kiến thức và quan điểm sống cùng bạn, để 
+              cùng nhau trưởng thành và chinh phục những mục tiêu lớn lao!
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
-                particularly proud of was creating an interactive web
-                application for a major event, which received widespread acclaim
-                for its intuitive design and seamless performance.
+              Bên cạnh đó, mình rất thích tìm hiểu về cách con người có thể tận dụng khả năng 
+              của mình để tạo nên những thay đổi tích cực trong cuộc sống. Mỗi cuộc trò chuyện, 
+              mỗi ý tưởng chia sẻ đều là cơ hội để chúng ta khám phá nhiều khía cạnh mới mẻ của thế giới.
               </p>
               <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+                P.s: Rất mong được kết bạn và cùng nhau chia sẻ, học hỏi để tạo nên những thay đổi tích cực trong cuộc sống! ✌️.
               </p>
             </div>
             <div
@@ -114,37 +107,37 @@ export default function About() {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1461} />+
+                  <AnimatedNumberFramerMotion value={13.065} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Days of Coding
+                  Ngày trong đời
                 </h3>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={500} />
+                  <AnimatedNumberFramerMotion value={5.000} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Bugs Made
+                  Trải nghiệm tích cực
                 </h3>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={499} />
+                  <AnimatedNumberFramerMotion value={8.299} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Bugs Crushed
+                  Sự kiện vui vẻ
                 </h3>
               </div>
             </div>

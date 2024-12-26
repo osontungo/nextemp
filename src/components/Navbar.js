@@ -107,10 +107,10 @@ const Navbar = () => {
 
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav className="flex items-center justify-center">
-          <CustomLink className="mr-4" href="/" title="Home" />
-          <CustomLink className="mx-4" href="/about" title="About" />
-          <CustomLink className="mx-4" href="/projects" title="Projects" />
-          <CustomLink className="ml-4" href="/articles" title="Articles" />
+          <CustomLink className="mr-4" href="/" title="Trang chủ" />
+          <CustomLink className="mx-4" href="/about" title="Về tôi" />
+          <CustomLink className="mx-4" href="/projects" title="Dự án" />
+          <CustomLink className="ml-4" href="/articles" title="Bài viết" />
         </nav>
         <nav
           className="flex items-center justify-center flex-wrap lg:mt-2
@@ -141,7 +141,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://www.sontung.xyz"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Dev.to profile"
@@ -152,7 +152,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://www.sontung.xyz"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My Dev.to profile"
@@ -187,31 +187,31 @@ const Navbar = () => {
               toggle={handleClick}
               className="mr-4 lg:m-0 lg:my-2"
               href="/"
-              title="Home"
+              title="Trang chủ"
             />
             <CustomMobileLink
               toggle={handleClick}
               className="mx-4 lg:m-0 lg:my-2"
               href="/about"
-              title="About"
+              title="Về tôi"
             />
             <CustomMobileLink
               toggle={handleClick}
               className="mx-4 lg:m-0 lg:my-2"
               href="/projects"
-              title="Projects"
+              title="Dự án"
             />
             <CustomMobileLink
               toggle={handleClick}
               className="ml-4 lg:m-0 lg:my-2"
               href="/articles"
-              title="Articles"
+              title="Bài viết"
             />
             <CustomMobileLink
               toggle={handleClick}
               className="ml-4 lg:m-0 lg:my-2"
               href="/contact"
-              title="Contact"
+              title="Kết bạn"
             />
           </nav>
           <nav
@@ -242,7 +242,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mx-3"
-              href="https://dev.to/lilxyzz"
+              href="https://www.sontung.xyz"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Dev.to profile"
@@ -252,7 +252,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mx-3"
-              href="https://dev.to/lilxyzz"
+              href="https://www.sontung.xyz"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My Dev.to profile"
