@@ -231,7 +231,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Công việc & Dự án | Sơn Tùng XYZ</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -244,20 +244,20 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Transforms the World ✨"
+            text="Kiến tạo tương lai ✨"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                type="VENUS BEAUTY PARADISE"
+                tools="Dịch vụ thẩm mỹ | Chăm sóc sức khỏe | Thực phẩm chức năng "
+                title="Thiên đường làm đẹp"
+                summary="Thay đổ diện mạo, thay đổi cuộc đời với đội ngũ 100% Bác sỹ có chuyên môn cao, kinh nghiệm trên 20 năm, chính chỉ hành nghề theo đúng quy định pháp luật"
                 img={proj1}
                 date="2023"
                 link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://www.venusbeautyparadise.com"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
