@@ -39,12 +39,12 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Xin chào, Mình Là Sơn Tùng"
+                text="Hey, Mình Tùng"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  Cuộc sống là hành trình những trải nghiệm hấp dẫn.
+                  Cuộc sống này thật hấp dẫn.
                 </h2>
               </div>
 
@@ -62,7 +62,7 @@ export default function Home() {
             md:p-2 md:px-4 md:text-base
              `}
                 >
-                  Xem thêm về mình
+                  Xem thêm
                 </Link>
                 <Link
                   href="/projects/"
@@ -73,7 +73,7 @@ export default function Home() {
             md:p-2 md:px-4 md:text-base
              `}
                 >
-                  Những việc đang làm
+                  Công việc đang làm
                 </Link>
               </div>
             </div>
