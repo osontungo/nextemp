@@ -153,7 +153,7 @@ export default function Articles() {
               title="Cố gắng để trở thành phiên bản tuyệt vời nhất của chính mình trong năm 2025"
               time="2 phút đọc"
               summary="Đây là tuần yêu thích nhất trong năm của mình. Mọi thứ đều chậm lại, Nhiệt độ là 22 độ C và nắng rất nhẹ mỗi ngày ở nơi của mình vào thời điểm này trong năm..."
-              link="https://www.sontung.xyz/baiviet/viet-cho-nam-moi"
+              link="/baiviet/viet-cho-nam-moi"
             />
 
             <FeaturedArticle
