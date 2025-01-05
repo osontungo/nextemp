@@ -61,7 +61,7 @@ export default function About() {
             md:col-span-8"
             >
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-              TIỂU SỬ
+              About
               </h2>
               <p className="font-medium ">
               Rất vui được gặp bạn! Mình là Sơn Tùng – một người yêu thích sự đơn giản nhưng 
