@@ -159,7 +159,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             md:p-2 md:px-4 md:text-base"
             aria-label="Project link"
           >
-            Xem dự án
+            Xem công việc
           </Link>
         </div>
       </div>
@@ -221,7 +221,7 @@ const Project = ({ title, type, img, link, tools }) => {
             "
             aria-label={title}
           >
-            Xem dự án
+            Xem công việc
           </Link>
         </div>
       </div>
