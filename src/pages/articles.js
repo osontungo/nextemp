@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import blog1 from "../../public/images/articles/Clay-Gatsby-theme.webp";
+import blog1 from "../../public/images/baiviet/viet-cho-nam-moi.jpeg";
 import blog2 from "../../public/images/articles/My-MacBook-Setup-For-Development-2024.webp";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
@@ -150,10 +150,10 @@ export default function Articles() {
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={blog1}
-              title="Unlocking the Power of Gatsby & Netlify"
-              time="2 min read"
-              summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
-              link="https://www.facebook.com/lesontungxyz"
+              title="Cố gắng để trở thành phiên bản tuyệt vời nhất của chính mình trong năm 2025"
+              time="2 phút đọc"
+              summary="Đây là tuần yêu thích nhất trong năm của mình. Mọi thứ đều chậm lại, Nhiệt độ là 22 độ C và nắng rất nhẹ mỗi ngày ở nơi của mình vào thời điểm này trong năm..."
+              link="https://www.sontung.xyz/baiviet/viet-cho-nam-moi"
             />
 
             <FeaturedArticle
