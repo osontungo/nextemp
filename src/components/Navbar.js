@@ -109,7 +109,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-center">
           <CustomLink className="mr-4" href="/" title="Trang chủ" />
           <CustomLink className="mx-4" href="/about" title="Về tôi" />
-          <CustomLink className="mx-4" href="/projects" title="Dự án" />
+          <CustomLink className="mx-4" href="/projects" title="Công việc" />
           <CustomLink className="ml-4" href="/articles" title="Bài viết" />
         </nav>
         <nav
@@ -122,7 +122,7 @@ const Navbar = () => {
             href="https://www.facebook.com/lesontungxyz"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my GitHub profile"
+            aria-label="Checkout my Facebook profile"
           >
             <GithubIcon />
           </motion.a>
@@ -133,7 +133,7 @@ const Navbar = () => {
             href="https://zalo.me/0915467890"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my Medium profile"
+            aria-label="Checkout my Zalo profile"
           >
             <MediumIcon />
           </motion.a>
@@ -199,7 +199,7 @@ const Navbar = () => {
               toggle={handleClick}
               className="mx-4 lg:m-0 lg:my-2"
               href="/projects"
-              title="Dự án"
+              title="Công việc"
             />
             <CustomMobileLink
               toggle={handleClick}
