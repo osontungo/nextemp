@@ -275,12 +275,12 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                type="Đào tạo nghề"
+                tools="Nấu ăn | Pha chế | Xây dựng nhân hiệu | Bigdata"
+                title="Đào tạo - Các khóa học chất lượng cao"
                 img={proj3}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
+                link="https://www.ivip.vn"
                 github="https://zalo.me/0915467890"
               />
             </div>
